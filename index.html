@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag & Drop</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar my_nav navbar-expand-lg bg-warning fixed-top">
+      <div class="container">
+        <a
+          class="navbar-brand font-weight-bold text-dark"
+          style="font-size: 24px;"
+          href="#"
+        >
+          <img src="images/d.png" width="50" alt="Logo" /> Drag & Arrange
+          Game</a
+        >
+        <img
+          src="images/l.jpg"
+          class="d-block mx-auto"
+          height="70"
+          alt="image"
+        />
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row lists pt-2">
+        <div class="col-6 col-md-6 mb-2 list">
+          <div class="card bg-secondary">
+            <div class="card-body">
+              <p class="list-group-item mt-1 bg-danger" draggable="true">
+                I am red
+              </p>
+              <p class="list-group-item mt-1 bg-info" draggable="true">
+                I am teal
+              </p>
+              <p class="list-group-item mt-1 bg-white" draggable="true">
+                I am white
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 h-75 col-md-6 mb-2 list">
+          <div class="card bg-secondary">
+            <div class="card-body">
+              <p class="list-group-item mt-1 bg-info" draggable="true">
+                I am teal
+              </p>
+              <p class="list-group-item mt-1 bg-warning" draggable="true">
+                I am orange
+              </p>
+              <p class="list-group-item mt-1 bg-danger" draggable="true">
+                I am red
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 mb-2 list">
+          <div class="card bg-secondary">
+            <div class="card-body">
+              <p class="list-group-item mt-1 bg-warning" draggable="true">
+                I am orange
+              </p>
+              <p class="list-group-item mt-1 bg-danger" draggable="true">
+                I am red
+              </p>
+              <p class="list-group-item mt-1 bg-white" draggable="true">
+                I am white
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-6 mb-2 list">
+          <div class="card bg-secondary">
+            <div class="card-body">
+              <p class="list-group-item mt-1 bg-warning" draggable="true">
+                I am orange
+              </p>
+              <p class="list-group-item mt-1 bg-info" draggable="true">
+                I am teal
+              </p>
+              <p class="list-group-item mt-1 bg-white" draggable="true">
+                I am white
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

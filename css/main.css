@@ -1,0 +1,10 @@
+body {
+  background-color: darkgray;
+}
+.lists {
+  margin-top: 140px;
+}
+
+.card-body {
+  min-height: 30vh;
+}
